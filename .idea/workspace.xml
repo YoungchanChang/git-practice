@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b15e768d-359b-42bf-9cca-6b45f20f23ae" name="Changes" comment="# test for rebase fourth" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Rebase.Settings">
+    <option name="NEW_BASE" value="e0b5c4c1" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="feature/DEV-login" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="MIXED" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2FtXwumiVHQQEatOg6Di7LGK2Tk" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/olaf/Desktop/workspace/git-practice",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/git_flow" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b15e768d-359b-42bf-9cca-6b45f20f23ae" name="Changes" comment="" />
+      <created>1665312595815</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1665312595815</updated>
+      <workItem from="1665312597430" duration="12257000" />
+    </task>
+    <task id="LOCAL-00001" summary="# First commit">
+      <created>1665312689604</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1665312689604</updated>
+    </task>
+    <task id="LOCAL-00002" summary="# First commit">
+      <created>1665312795510</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1665312795510</updated>
+    </task>
+    <task id="LOCAL-00003" summary="# login">
+      <created>1665312884412</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1665312884412</updated>
+    </task>
+    <task id="LOCAL-00004" summary="# signup">
+      <created>1665312953012</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1665312953012</updated>
+    </task>
+    <task id="LOCAL-00005" summary="# release">
+      <created>1665313157017</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1665313157017</updated>
+    </task>
+    <task id="LOCAL-00006" summary="# release">
+      <created>1665313285471</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1665313285471</updated>
+    </task>
+    <task id="LOCAL-00007" summary="# release">
+      <created>1665313351567</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1665313351567</updated>
+    </task>
+    <task id="LOCAL-00008" summary="# release">
+      <created>1665313798157</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1665313798157</updated>
+    </task>
+    <task id="LOCAL-00009" summary="# git log file">
+      <created>1665387890998</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1665387890998</updated>
+    </task>
+    <task id="LOCAL-00010" summary="# git log file B added">
+      <created>1665388055088</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1665388055088</updated>
+    </task>
+    <task id="LOCAL-00011" summary="# git log file B added">
+      <created>1665388086953</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1665388086953</updated>
+    </task>
+    <task id="LOCAL-00012" summary="# git log file B added">
+      <created>1665388216199</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1665388216199</updated>
+    </task>
+    <task id="LOCAL-00013" summary="# git log file C added">
+      <created>1665389890104</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1665389890104</updated>
+    </task>
+    <task id="LOCAL-00014" summary="# git log file C added">
+      <created>1665389902228</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1665389902228</updated>
+    </task>
+    <task id="LOCAL-00015" summary="# git log file C added">
+      <created>1665389917747</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1665389917747</updated>
+    </task>
+    <task id="LOCAL-00016" summary="# git log file C added">
+      <created>1665390066123</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1665390066123</updated>
+    </task>
+    <task id="LOCAL-00017" summary="# git log file C added from revert">
+      <created>1665390084360</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1665390084360</updated>
+    </task>
+    <task id="LOCAL-00018" summary="# git log file D added">
+      <created>1665390111999</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1665390111999</updated>
+    </task>
+    <task id="LOCAL-00019" summary="# git log file E added">
+      <created>1665390148577</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1665390148577</updated>
+    </task>
+    <task id="LOCAL-00020" summary="# git stash file added">
+      <created>1665396417800</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1665396417800</updated>
+    </task>
+    <task id="LOCAL-00021" summary="# git stash dev login">
+      <created>1665396545211</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1665396545211</updated>
+    </task>
+    <task id="LOCAL-00022" summary="# git stash pop test completed">
+      <created>1665396908366</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1665396908366</updated>
+    </task>
+    <task id="LOCAL-00023" summary="# amend file A started!">
+      <created>1665398808123</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1665398808123</updated>
+    </task>
+    <task id="LOCAL-00024" summary="# amend file B added">
+      <created>1665398842885</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1665398842885</updated>
+    </task>
+    <task id="LOCAL-00025" summary="# amend file C added">
+      <created>1665398925927</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1665398925927</updated>
+    </task>
+    <task id="LOCAL-00026" summary="# just for test file changed">
+      <created>1665399369963</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1665399369963</updated>
+    </task>
+    <task id="LOCAL-00027" summary="# test for rebase">
+      <created>1665400371618</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1665400371618</updated>
+    </task>
+    <task id="LOCAL-00028" summary="# test for rebase second">
+      <created>1665400383835</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1665400383835</updated>
+    </task>
+    <task id="LOCAL-00029" summary="# test for rebase third">
+      <created>1665400399077</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1665400399077</updated>
+    </task>
+    <task id="LOCAL-00030" summary="# test for rebase fourth">
+      <created>1665400493908</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1665400493908</updated>
+    </task>
+    <task id="LOCAL-00031" summary="# test for rebase fourth">
+      <created>1665400862527</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1665400862527</updated>
+    </task>
+    <task id="LOCAL-00032" summary="# test for rebase fourth">
+      <created>1665401630350</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1665401630350</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="# First commit" />
+    <MESSAGE value="# login" />
+    <MESSAGE value="# signup" />
+    <MESSAGE value="# release" />
+    <MESSAGE value="# git log file" />
+    <MESSAGE value="# git log file B added" />
+    <MESSAGE value="# git log file C added" />
+    <MESSAGE value="# git log file C added from revert" />
+    <MESSAGE value="# git log file D added" />
+    <MESSAGE value="# git log file E added" />
+    <MESSAGE value="# git stash file added" />
+    <MESSAGE value="# git stash dev login" />
+    <MESSAGE value="# git stash pop test completed" />
+    <MESSAGE value="# amend file A started!" />
+    <MESSAGE value="# amend file B added" />
+    <MESSAGE value="# amend file C added" />
+    <MESSAGE value="# just for test file changed" />
+    <MESSAGE value="# test for rebase" />
+    <MESSAGE value="# test for rebase second" />
+    <MESSAGE value="# test for rebase third" />
+    <MESSAGE value="# test for rebase fourth" />
+    <option name="LAST_COMMIT_MESSAGE" value="# test for rebase fourth" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/git_flow/main.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
