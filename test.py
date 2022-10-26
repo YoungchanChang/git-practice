@@ -1,7 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 
-response = requests.get("http://paullab.synology.me/stock.html")
+response = requests.get("https://paullab.co.kr/stock.html")
 
 response.encoding = 'utf-8'
 html = response.text
