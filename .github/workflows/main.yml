@@ -7,6 +7,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
+      with:
+        persis-credentials: false
     - name: 1. 파일 목록 출력
       run: ls -al
     - name: 2. 설치되어 있는 패키지 확인
@@ -17,3 +19,14 @@ jobs:
       run: pip install -r requirements.txt
     - name: 5. 파이썬 실행
       run: python test.py
+    - name: Commit files
+      run: |
+        git config --local user.email "paullabkorea@gmail.com"
+        git config --local user.name "paullabkorea"
+        git add .
+        git commit -m "Run crawler and update current data"
+    - name: Push changes
+      uses: ad-m/github-push-action@master
+      with:
+        # branch: "master"
+        github_token: ${{ secrets.GITHUB_TOKEN }}
