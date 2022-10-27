@@ -31,6 +31,8 @@ jobs:
       run: echo Hello, world!
   
     - uses: actions/checkout@v2
+      with:
+        persit-credentials: false
     - name: 3. pip 업그레이드
       run: python -m pip install --upgrade pip
     
