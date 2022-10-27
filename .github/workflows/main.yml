@@ -44,8 +44,8 @@ jobs:
       
     - name: Commit files
       run: |
-        git config --local user.email "olaf@buzzni.com"
-        git config --local user.name "olaf"
+        git config --local user.email "san0558@naver.com"
+        git config --local user.name "youngchanChang"
         git add .
         git commit -m "Olaf test code"
     
