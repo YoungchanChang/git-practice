@@ -4,8 +4,9 @@ name: changeNameOfGitHubAction
 on:
   push:
     branches: [ master, develop ]
-    paths:
-      - "test_code/**"
+
+#     paths:
+#      - "test_code/**"
 
 jobs:
   build:
@@ -38,3 +39,17 @@ jobs:
     
     - name: Run python
       run: python test_code/test.py
+      
+    - name: Commit files
+      run: |
+        git config --local user.email "olaf@buzzni.com"
+        git config --local user.name "olaf"
+        git add .
+        git commit -m "Olaf test code"
+    
+    - name: Push changes
+      uses: ad-m/github-push-action@master
+      with:
+        # branch: "master"
+        github_token: ${{ secrtes.GITHUB_TOKEN }}
+      
