@@ -4,6 +4,8 @@ name: changeNameOfGitHubAction
 on:
   push:
     branches: [ master, develop ]
+    paths:
+      - "test_code/**"
 
 jobs:
   build:
@@ -35,4 +37,4 @@ jobs:
       run: pip install -r requirements.txt
     
     - name: Run python
-      run: python test_code/test.py
+      run: python test.py
