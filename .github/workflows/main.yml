@@ -42,18 +42,18 @@ jobs:
     - name: Run python
       run: python test_code/test.py
       
-    - name: Commit files
-      run: |
-        git config --local user.email "san0558@naver.com"
-        git config --local user.name "youngchanChang"
-        git add .
-        git commit -m "Olaf test code"
+#     - name: Commit files
+#       run: |
+#         git config --local user.email "san0558@naver.com"
+#         git config --local user.name "youngchanChang"
+#         git add .
+#         git commit -m "Olaf test code"
     
-    - name: Push changes
-      uses: ad-m/github-push-action@master
-      with:
-        # branch: "master"
-        github_token: ${{ secrets.GITHUB_TOKEN }}
+#     - name: Push changes
+#       uses: ad-m/github-push-action@master
+#       with:
+#         # branch: "master"
+#         github_token: ${{ secrets.GITHUB_TOKEN }}
       
     - name: Install dependencies
       run: |
