@@ -37,4 +37,4 @@ jobs:
       run: pip install -r requirements.txt
     
     - name: Run python
-      run: python test.py
+      run: python test_code/test.py
