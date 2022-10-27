@@ -43,4 +43,4 @@ jobs:
 
     
     - name: Run python
-      run: python test.py
+      run: python test_code/test.py
