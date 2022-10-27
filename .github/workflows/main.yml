@@ -62,7 +62,8 @@ jobs:
     - name: Run test with pytest
       run: |
         pytest
-        
+
+    # this step needs to be done after the pytest
     - name: hello world 출력!!
       run: echo Hello, world!
     - name: 디렉토리 출력!!
@@ -71,3 +72,43 @@ jobs:
       run: python -V
     - name: Run a one-line script
       run: echo Hello, world!
+
+
+    - name: Display Python version
+      run: python -c "import sys; print(sys.version)"
+
+    - name: Set up Python 3.8
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.8
+        cache: 'pip'
+
+    - name: Display Python version
+      run: python -c "import sys; print(sys.version)"
+
+    # 해당 설정이 있어야 gitaction에서 일어나는 시간대가 KST로된다.
+    - name: Setup timezone
+      uses: zcong1993/setup-timezone@master
+      with:
+        timezone: Asia/Seoul
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install black==22.3.0
+        pip install isort==5.10.1
+      shell: bash
+
+    # 88길이를 기본으로 하고, migration directory는 alembic 자동 생성이기 때문에 제외한다.
+    - name: Formatting with black
+      run: |
+        black --line-length 88 --check . --exclude=migration
+      shell: bash
+  
+    - name: SortImports with isort
+      run: |
+        isort . --line-length 88 --profile black --check --skip migration
+      shell: bash
+
+
+
