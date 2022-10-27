@@ -55,3 +55,10 @@ jobs:
         # branch: "master"
         github_token: ${{ secrets.GITHUB_TOKEN }}
       
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install pytest
+    - name: Run test with pytest
+      run: |
+        pytest
