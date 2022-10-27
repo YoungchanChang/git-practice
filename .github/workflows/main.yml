@@ -3,6 +3,8 @@ name: changeNameOfGitHubAction
 on:
   push:
     branches: [ master, develop ]
+    paths:
+      - "test_code/**"
 
 # 
 jobs:
