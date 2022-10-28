@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b15e768d-359b-42bf-9cca-6b45f20f23ae" name="Changes" comment="# python 설치하기">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="b15e768d-359b-42bf-9cca-6b45f20f23ae" name="Changes" comment="# Dockerfile 사용해보기" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -61,7 +59,7 @@
       <updated>1665312595815</updated>
       <workItem from="1665312597430" duration="12257000" />
       <workItem from="1666764197801" duration="1940000" />
-      <workItem from="1666921529245" duration="4794000" />
+      <workItem from="1666921529245" duration="5272000" />
     </task>
     <task id="LOCAL-00001" summary="# First commit">
       <created>1665312689604</created>
@@ -322,7 +320,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666925922529</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="# Dockerfile 사용해보기">
+      <created>1666944448678</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1666944448678</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -376,7 +381,8 @@
     <MESSAGE value="# test02 DEVBE cherry pick second trial" />
     <MESSAGE value="# black isort works" />
     <MESSAGE value="# python 설치하기" />
-    <option name="LAST_COMMIT_MESSAGE" value="# python 설치하기" />
+    <MESSAGE value="# Dockerfile 사용해보기" />
+    <option name="LAST_COMMIT_MESSAGE" value="# Dockerfile 사용해보기" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
