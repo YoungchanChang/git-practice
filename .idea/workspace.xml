@@ -60,28 +60,7 @@
       <updated>1665312595815</updated>
       <workItem from="1665312597430" duration="12257000" />
       <workItem from="1666764197801" duration="1940000" />
-      <workItem from="1666921529245" duration="6501000" />
-    </task>
-    <task id="LOCAL-00001" summary="# First commit">
-      <created>1665312689604</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1665312689604</updated>
-    </task>
-    <task id="LOCAL-00002" summary="# First commit">
-      <created>1665312795510</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1665312795510</updated>
-    </task>
-    <task id="LOCAL-00003" summary="# login">
-      <created>1665312884412</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1665312884412</updated>
+      <workItem from="1666921529245" duration="6815000" />
     </task>
     <task id="LOCAL-00004" summary="# signup">
       <created>1665312953012</created>
@@ -377,7 +356,56 @@
       <option name="project" value="LOCAL" />
       <updated>1666947046781</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="# Dockerfile 사용해보기">
+      <created>1666947055651</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1666947055651</updated>
+    </task>
+    <task id="LOCAL-00047" summary="# Dockerfile 사용해보기">
+      <created>1666947111333</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1666947111333</updated>
+    </task>
+    <task id="LOCAL-00048" summary="# Dockerfile 사용해보기">
+      <created>1666947135593</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1666947135593</updated>
+    </task>
+    <task id="LOCAL-00049" summary="# Dockerfile 사용해보기">
+      <created>1666947166844</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1666947166844</updated>
+    </task>
+    <task id="LOCAL-00050" summary="# Dockerfile 사용해보기">
+      <created>1666947199693</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1666947199694</updated>
+    </task>
+    <task id="LOCAL-00051" summary="# Dockerfile 사용해보기">
+      <created>1666947220542</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1666947220542</updated>
+    </task>
+    <task id="LOCAL-00052" summary="# Dockerfile 사용해보기">
+      <created>1666947256318</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1666947256318</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
