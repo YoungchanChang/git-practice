@@ -46,6 +46,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/git_flow" />
     </key>
   </component>
@@ -59,7 +60,7 @@
       <updated>1665312595815</updated>
       <workItem from="1665312597430" duration="12257000" />
       <workItem from="1666764197801" duration="1940000" />
-      <workItem from="1666921529245" duration="5614000" />
+      <workItem from="1666921529245" duration="6501000" />
     </task>
     <task id="LOCAL-00001" summary="# First commit">
       <created>1665312689604</created>
@@ -348,7 +349,35 @@
       <option name="project" value="LOCAL" />
       <updated>1666944848355</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="# Dockerfile 사용해보기">
+      <created>1666945044777</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1666945044777</updated>
+    </task>
+    <task id="LOCAL-00043" summary="# Dockerfile 사용해보기">
+      <created>1666945099759</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1666945099759</updated>
+    </task>
+    <task id="LOCAL-00044" summary="# Dockerfile 사용해보기">
+      <created>1666945124382</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1666945124382</updated>
+    </task>
+    <task id="LOCAL-00045" summary="# Dockerfile 사용해보기">
+      <created>1666947046781</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1666947046781</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
