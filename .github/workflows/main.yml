@@ -77,10 +77,12 @@ jobs:
     - name: Display Python version
       run: python -c "import sys; print(sys.version)"
 
-    - name: Set up Python 3.8
+
+    # setup Python 3.8
+    - name: Set up Python 3.9
       uses: actions/setup-python@v2
       with:
-        python-version: 3.8
+        python-version: 3.9
         cache: 'pip'
 
     - name: Display Python version
@@ -92,6 +94,7 @@ jobs:
       with:
         timezone: Asia/Seoul
 
+    # setup black isort
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
@@ -99,7 +102,7 @@ jobs:
         pip install isort==5.10.1
       shell: bash
 
-    # 88길이를 기본으로 하고, migration directory는 alembic 자동 생성이기 때문에 제외한다.
+    # 88길이를 기본
     - name: Formatting with black
       run: |
         black --line-length 88 --check . --exclude=migration
