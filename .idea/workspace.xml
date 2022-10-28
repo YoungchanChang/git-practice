@@ -59,7 +59,7 @@
       <updated>1665312595815</updated>
       <workItem from="1665312597430" duration="12257000" />
       <workItem from="1666764197801" duration="1940000" />
-      <workItem from="1666921529245" duration="5272000" />
+      <workItem from="1666921529245" duration="5614000" />
     </task>
     <task id="LOCAL-00001" summary="# First commit">
       <created>1665312689604</created>
@@ -327,7 +327,28 @@
       <option name="project" value="LOCAL" />
       <updated>1666944448678</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="# Dockerfile 사용해보기">
+      <created>1666944630359</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1666944630359</updated>
+    </task>
+    <task id="LOCAL-00040" summary="# Dockerfile 사용해보기">
+      <created>1666944756657</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1666944756657</updated>
+    </task>
+    <task id="LOCAL-00041" summary="# Dockerfile 사용해보기">
+      <created>1666944848355</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1666944848355</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
