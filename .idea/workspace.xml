@@ -4,19 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b15e768d-359b-42bf-9cca-6b45f20f23ae" name="Changes" comment="# black isort works">
+    <list default="true" id="b15e768d-359b-42bf-9cca-6b45f20f23ae" name="Changes" comment="# python 설치하기">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cherry_pick_02.py" beforeDir="false" afterPath="$PROJECT_DIR$/cherry_pick_02.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/git_log/log_file_A.py" beforeDir="false" afterPath="$PROJECT_DIR$/git_log/log_file_A.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/git_log/log_file_B.py" beforeDir="false" afterPath="$PROJECT_DIR$/git_log/log_file_B.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/git_log/log_file_C.py" beforeDir="false" afterPath="$PROJECT_DIR$/git_log/log_file_C.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/git_log/log_file_D.py" beforeDir="false" afterPath="$PROJECT_DIR$/git_log/log_file_D.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/git_log/log_file_E.py" beforeDir="false" afterPath="$PROJECT_DIR$/git_log/log_file_E.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/git_rebase/amend_file_01.py" beforeDir="false" afterPath="$PROJECT_DIR$/git_rebase/amend_file_01.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/git_rebase/amend_file_02.py" beforeDir="false" afterPath="$PROJECT_DIR$/git_rebase/amend_file_02.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/git_rebase/amend_file_03.py" beforeDir="false" afterPath="$PROJECT_DIR$/git_rebase/amend_file_03.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/git_stash/git_stash_A.py" beforeDir="false" afterPath="$PROJECT_DIR$/git_stash/git_stash_A.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_sample.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_sample.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +61,7 @@
       <updated>1665312595815</updated>
       <workItem from="1665312597430" duration="12257000" />
       <workItem from="1666764197801" duration="1940000" />
-      <workItem from="1666921529245" duration="2313000" />
+      <workItem from="1666921529245" duration="4794000" />
     </task>
     <task id="LOCAL-00001" summary="# First commit">
       <created>1665312689604</created>
@@ -319,7 +308,21 @@
       <option name="project" value="LOCAL" />
       <updated>1666924083545</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="# black isort works">
+      <created>1666924355136</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1666924355136</updated>
+    </task>
+    <task id="LOCAL-00037" summary="# python 설치하기">
+      <created>1666925922529</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1666925922529</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -372,7 +375,8 @@
     <MESSAGE value="# test for rebase fourth" />
     <MESSAGE value="# test02 DEVBE cherry pick second trial" />
     <MESSAGE value="# black isort works" />
-    <option name="LAST_COMMIT_MESSAGE" value="# black isort works" />
+    <MESSAGE value="# python 설치하기" />
+    <option name="LAST_COMMIT_MESSAGE" value="# python 설치하기" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
