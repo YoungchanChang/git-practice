@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b15e768d-359b-42bf-9cca-6b45f20f23ae" name="Changes" comment="# test for rebase fourth" />
+    <list default="true" id="b15e768d-359b-42bf-9cca-6b45f20f23ae" name="Changes" comment="# test02 DEVBE cherry pick second trial">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/git_flow/develop_01.py" beforeDir="false" afterPath="$PROJECT_DIR$/git_flow/develop_01.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/git_flow/feature_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/git_flow/feature_login.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/git_flow/hotfix_01.py" beforeDir="false" afterPath="$PROJECT_DIR$/git_flow/hotfix_01.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/git_flow/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/git_flow/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/git_flow/release_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/git_flow/release_1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/git_flow/signup_01.py" beforeDir="false" afterPath="$PROJECT_DIR$/git_flow/signup_01.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_code/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_code/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_sample.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_sample.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,7 +26,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="feature/DEV-login" />
+        <entry key="$PROJECT_DIR$" value="feature/DEV-test02" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -40,7 +50,8 @@
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)"
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "watcher.settings"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -57,6 +68,8 @@
       <option name="presentableId" value="Default" />
       <updated>1665312595815</updated>
       <workItem from="1665312597430" duration="12257000" />
+      <workItem from="1666764197801" duration="1940000" />
+      <workItem from="1666921529245" duration="1857000" />
     </task>
     <task id="LOCAL-00001" summary="# First commit">
       <created>1665312689604</created>
@@ -282,7 +295,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665401630350</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="# test02 DEVBE cherry pick second trial">
+      <created>1665451556307</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1665451556307</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -299,7 +319,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="master" />
+                        <option value="feature/DEV-test02" />
                       </list>
                     </value>
                   </entry>
@@ -333,7 +353,8 @@
     <MESSAGE value="# test for rebase second" />
     <MESSAGE value="# test for rebase third" />
     <MESSAGE value="# test for rebase fourth" />
-    <option name="LAST_COMMIT_MESSAGE" value="# test for rebase fourth" />
+    <MESSAGE value="# test02 DEVBE cherry pick second trial" />
+    <option name="LAST_COMMIT_MESSAGE" value="# test02 DEVBE cherry pick second trial" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
