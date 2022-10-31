@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b15e768d-359b-42bf-9cca-6b45f20f23ae" name="Changes" comment="# composite action">
-      <change afterPath="$PROJECT_DIR$/.github/workflows/test.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="b15e768d-359b-42bf-9cca-6b45f20f23ae" name="Changes" comment="# test에 대해서 테스트 해봄" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -64,21 +61,7 @@
       <updated>1665312595815</updated>
       <workItem from="1665312597430" duration="12257000" />
       <workItem from="1666764197801" duration="1940000" />
-      <workItem from="1666921529245" duration="19199000" />
-    </task>
-    <task id="LOCAL-00016" summary="# git log file C added">
-      <created>1665390066123</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1665390066123</updated>
-    </task>
-    <task id="LOCAL-00017" summary="# git log file C added from revert">
-      <created>1665390084360</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1665390084360</updated>
+      <workItem from="1666921529245" duration="19518000" />
     </task>
     <task id="LOCAL-00018" summary="# git log file D added">
       <created>1665390111999</created>
@@ -409,7 +392,21 @@
       <option name="project" value="LOCAL" />
       <updated>1667195595324</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="# test에 대해서 테스트 해봄">
+      <created>1667207083015</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1667207083016</updated>
+    </task>
+    <task id="LOCAL-00066" summary="# test에 대해서 테스트 해봄">
+      <created>1667207135099</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1667207135100</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -439,7 +436,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="# signup" />
     <MESSAGE value="# release" />
     <MESSAGE value="# git log file" />
     <MESSAGE value="# git log file B added" />
@@ -464,7 +460,8 @@
     <MESSAGE value="# Dockerfile 사용해보기" />
     <MESSAGE value="# Dockerfile push" />
     <MESSAGE value="# composite action" />
-    <option name="LAST_COMMIT_MESSAGE" value="# composite action" />
+    <MESSAGE value="# test에 대해서 테스트 해봄" />
+    <option name="LAST_COMMIT_MESSAGE" value="# test에 대해서 테스트 해봄" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
