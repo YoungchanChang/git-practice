@@ -26,26 +26,6 @@ jobs:
         python-version: [3.9.12]
         os: [ubuntu-latest]
 
-    services:
-      postgres:
-        image: postgres:12.2-alpine
-        env:
-          POSTGRES_DB: order
-          POSTGRES_USER: buzzni
-          POSTGRES_PASSWORD: postgres-local
-        ports:
-          - 5432:5432
-        options: >-
-          --health-cmd pg_isready
-          --health-interval 10s
-          --health-timeout 5s
-          --health-retries 5
-
-      redis:
-        image: redis:6.2-alpine
-        ports:
-          - 6380:6379
-
     steps:
       - name: Test environment Setup Python..
         uses: actions/setup-python@v2
