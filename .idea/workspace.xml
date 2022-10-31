@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b15e768d-359b-42bf-9cca-6b45f20f23ae" name="Changes" comment="# Dockerfile push">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/main.yml" afterDir="false" />
+    <list default="true" id="b15e768d-359b-42bf-9cca-6b45f20f23ae" name="Changes" comment="# composite action">
+      <change afterPath="$PROJECT_DIR$/.github/workflows/test.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +49,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/.github/workflows" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/git_flow" />
     </key>
@@ -62,28 +64,7 @@
       <updated>1665312595815</updated>
       <workItem from="1665312597430" duration="12257000" />
       <workItem from="1666764197801" duration="1940000" />
-      <workItem from="1666921529245" duration="15296000" />
-    </task>
-    <task id="LOCAL-00013" summary="# git log file C added">
-      <created>1665389890104</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1665389890104</updated>
-    </task>
-    <task id="LOCAL-00014" summary="# git log file C added">
-      <created>1665389902228</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1665389902228</updated>
-    </task>
-    <task id="LOCAL-00015" summary="# git log file C added">
-      <created>1665389917747</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1665389917747</updated>
+      <workItem from="1666921529245" duration="19199000" />
     </task>
     <task id="LOCAL-00016" summary="# git log file C added">
       <created>1665390066123</created>
@@ -407,7 +388,28 @@
       <option name="project" value="LOCAL" />
       <updated>1667194992472</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="# Dockerfile push">
+      <created>1667195291146</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1667195291146</updated>
+    </task>
+    <task id="LOCAL-00063" summary="# composite action">
+      <created>1667195454759</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1667195454759</updated>
+    </task>
+    <task id="LOCAL-00064" summary="# composite action">
+      <created>1667195595324</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1667195595324</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -437,7 +439,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="# login" />
     <MESSAGE value="# signup" />
     <MESSAGE value="# release" />
     <MESSAGE value="# git log file" />
@@ -462,7 +463,8 @@
     <MESSAGE value="# python 설치하기" />
     <MESSAGE value="# Dockerfile 사용해보기" />
     <MESSAGE value="# Dockerfile push" />
-    <option name="LAST_COMMIT_MESSAGE" value="# Dockerfile push" />
+    <MESSAGE value="# composite action" />
+    <option name="LAST_COMMIT_MESSAGE" value="# composite action" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
