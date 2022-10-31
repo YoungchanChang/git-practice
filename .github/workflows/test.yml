@@ -62,4 +62,4 @@ jobs:
 
       - name: API Test
         run: |
-          pytest
+          pytest -c pytest.ini
