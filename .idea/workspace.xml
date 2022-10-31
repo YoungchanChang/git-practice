@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b15e768d-359b-42bf-9cca-6b45f20f23ae" name="Changes" comment="# test에 대해서 테스트 해봄" />
+    <list default="true" id="b15e768d-359b-42bf-9cca-6b45f20f23ae" name="Changes" comment="# test에 대해서 테스트 해봄">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/test.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/test.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -61,21 +63,7 @@
       <updated>1665312595815</updated>
       <workItem from="1665312597430" duration="12257000" />
       <workItem from="1666764197801" duration="1940000" />
-      <workItem from="1666921529245" duration="19844000" />
-    </task>
-    <task id="LOCAL-00021" summary="# git stash dev login">
-      <created>1665396545211</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1665396545211</updated>
-    </task>
-    <task id="LOCAL-00022" summary="# git stash pop test completed">
-      <created>1665396908366</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1665396908366</updated>
+      <workItem from="1666921529245" duration="20199000" />
     </task>
     <task id="LOCAL-00023" summary="# amend file A started!">
       <created>1665398808123</created>
@@ -406,7 +394,21 @@
       <option name="project" value="LOCAL" />
       <updated>1667207462239</updated>
     </task>
-    <option name="localTasksCounter" value="70" />
+    <task id="LOCAL-00070" summary="# test에 대해서 테스트 해봄">
+      <created>1667207673200</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1667207673200</updated>
+    </task>
+    <task id="LOCAL-00071" summary="# test에 대해서 테스트 해봄">
+      <created>1667207721842</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1667207721843</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
