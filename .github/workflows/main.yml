@@ -7,125 +7,148 @@ on:
 
 #     paths:
 #      - "test_code/**"
+env:
+  AWS_REGION: ap-northeast-2 #Seoul
+  ECR_REPOSITORY: olaftest # respository-name
 
 jobs:
-  hello_world_job:
-    runs-on: ubuntu-latest
-    name: A job to say hello
-    steps:
-      - name: Hello world action step
-        id: hello
-        uses: YoungchanChang/git-practice@TestVersion
-        with:
-          who-to-greet: 'Mona the Octocat'
-      # Use the output from the `hello` step
-      #
-      - name: Get the output time
-        run: echo "The time was ${{ steps.hello.outputs.time }}"
-
   build:
     runs-on: ubuntu-latest
     steps:
-    - name: Run a one-line script
-      run: echo Hello, world!
-      
-    # Rrn a set of commands using the runners shell
-    - name: Run a multi-line script
-      run: |
-        echo Add other actions to build,
-        echo test, and deploy my project
+      - uses: actions/checkout@v2
+      # aws에서 제공하는 액션을 사용해서 credentials를 세팅한다.
+      - name: Configure AWS Credentials
+        uses: aws-actions/configure-aws-credentials@v1
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: ${{ env.AWS_REGION }}
 
-    - name: hello world 출력!!
-      run: echo Hello, world!
-    - name: 디렉토리 출력!!
-      run: ls -al
-    - name: 파이썬 버전 출력!!
-      run: python -V
-    - name: Run a one-line script
-      run: echo Hello, world!
+      # aws에서 제공하는 액션을 사용해서 ecr로그인 실행
+      - name: Login to Amazon ECR
+        id: login-ecr
+        uses: aws-actions/amazon-ecr-login@v1
+
+
+      # 이미지 푸시를 위한 태그정보를 깃헙 브랜치와 해시정보를 합쳐서 만든다.
+      - name: set env
+        run: |
+          echo "ECR_PATH=${{ steps.login-ecr.outputs.registry }}" >> $GITHUB_ENV
+          echo "IMAGE_TAG=$(echo ${GITHUB_REF:11} | sed 's/\//_/g').$(date +%y.%m.%d.%H_%M)-$(echo $GITHUB_SHA | cut -c 1-7)" >> $GITHUB_ENV
   
-    - uses: actions/checkout@v2
-      with:
-        persit-credentials: false
-    - name: 3. pip 업그레이드
-      run: python -m pip install --upgrade pip
-    
-    - name: 4. 환경설정
-      run: pip install -r requirements.txt
-    
-    - name: Run python
-      run: python test_code/test.py
-      
-#     - name: Commit files
-#       run: |
-#         git config --local user.email "san0558@naver.com"
-#         git config --local user.name "youngchanChang"
-#         git add .
-#         git commit -m "Olaf test code"
-    
-#     - name: Push changes
-#       uses: ad-m/github-push-action@master
-#       with:
-#         # branch: "master"
-#         github_token: ${{ secrets.GITHUB_TOKEN }}
-      
-    - name: Install dependencies
-      run: |
-        python -m pip install --upgrade pip
-        pip install pytest
-    - name: Run test with pytest
-      run: |
-        pytest
 
-    # this step needs to be done after the pytest
-    - name: hello world 출력!!
-      run: echo Hello, world!
-    - name: 디렉토리 출력!!
-      run: ls -al
-    - name: 파이썬 버전 출력!!
-      run: python -V
-    - name: Run a one-line script
-      run: echo Hello, world!
+      # 도커 push 정보
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v1
 
-
-    - name: Display Python version
-      run: python -c "import sys; print(sys.version)"
-
-
-    # setup Python 3.8
-    - name: Set up Python 3.9
-      uses: actions/setup-python@v2
-      with:
-        python-version: 3.9
-        cache: 'pip'
-
-    - name: Display Python version
-      run: python -c "import sys; print(sys.version)"
-
-    # 해당 설정이 있어야 gitaction에서 일어나는 시간대가 KST로된다.
-    - name: Setup timezone
-      uses: zcong1993/setup-timezone@master
-      with:
-        timezone: Asia/Seoul
-
-    # setup black isort
-    - name: Install dependencies
-      run: |
-        python -m pip install --upgrade pip
-        pip install black==22.3.0
-        pip install isort==5.10.1
-      shell: bash
-
-    # 88길이를 기본
-    - name: Formatting with black
-      run: |
-        black --line-length 88 --check . --exclude=migration
-      shell: bash
+      - name: Docker interface_meta
+        id: interface_meta
+        uses: docker/metadata-action@v3
+        with:
+          images: ${{ env.ECR_PATH }}/${{ env.$ECR_REPOSITORY }}
+          tags: |
+            type=raw,value=${{ env.IMAGE_TAG }}
+            type=raw,value=develop.latest
   
-    - name: SortImports with isort
-      run: |
-        isort . --line-length 88 --profile black --check --skip migration
-      shell: bash
 
-
-
+      - name: build-push
+        uses: docker/build-push-action@v2
+        with:
+          file: Dockerfile
+          push: true
+          tags: ${{ steps.interface_meta.outputs.tags }}
+          labels: ${{ steps.interface_meta.outputs.labels }}
+#
+#
+#      - name: Run a one-line script
+#        run: echo Hello, world!
+#
+#      # Rrn a set of commands using the runners shell
+#      - name: Run a multi-line script
+#        run: |
+#          echo Add other actions to build,
+#          echo test, and deploy my project
+#
+#      - name: hello world 출력!!
+#        run: echo Hello, world!
+#      - name: 디렉토리 출력!!
+#        run: ls -al
+#      - name: 파이썬 버전 출력!!
+#        run: python -V
+#      - name: Run a one-line script
+#        run: echo Hello, world!
+#
+#      - uses: actions/checkout@v2
+#        with:
+#          persit-credentials: false
+#      - name: 3. pip 업그레이드
+#        run: python -m pip install --upgrade pip
+#
+#      - name: 4. 환경설정
+#        run: pip install -r requirements.txt
+#
+#      - name: Run python
+#        run: python test_code/test.py
+#
+#
+#      # For pytest set-up
+#      - name: Install dependencies
+#        run: |
+#          python -m pip install --upgrade pip
+#          pip install pytest
+#      - name: Run test with pytest
+#        run: |
+#          pytest
+#
+#      # this step needs to be done after the pytest
+#      - name: hello world 출력!!
+#        run: echo Hello, world!
+#      - name: 디렉토리 출력!!
+#        run: ls -al
+#      - name: 파이썬 버전 출력!!
+#        run: python -V
+#      - name: Run a one-line script
+#        run: echo Hello, world!
+#
+#
+#      - name: Display Python version
+#        run: python -c "import sys; print(sys.version)"
+#
+#
+#      # setup Python 3.8
+#      - name: Set up Python 3.9
+#        uses: actions/setup-python@v2
+#        with:
+#          python-version: 3.9
+#          cache: 'pip'
+#
+#      - name: Display Python version
+#        run: python -c "import sys; print(sys.version)"
+#
+#      # 해당 설정이 있어야 gitaction에서 일어나는 시간대가 KST로된다.
+#      - name: Setup timezone
+#        uses: zcong1993/setup-timezone@master
+#        with:
+#          timezone: Asia/Seoul
+#
+#      # setup black isort
+#      - name: Install dependencies
+#        run: |
+#          python -m pip install --upgrade pip
+#          pip install black==22.3.0
+#          pip install isort==5.10.1
+#        shell: bash
+#
+#      # 88길이를 기본
+#      - name: Formatting with black
+#        run: |
+#          black --line-length 88 --check . --exclude=migration
+#        shell: bash
+#
+#      - name: SortImports with isort
+#        run: |
+#          isort . --line-length 88 --profile black --check --skip migration
+#        shell: bash
+#
+#
+#
