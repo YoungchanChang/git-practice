@@ -1,12 +1,10 @@
-name: changeNameOfGitHubAction
+name: ECR_Push
 
 
 on:
   push:
     branches: [ master, develop ]
 
-#     paths:
-#      - "test_code/**"
 env:
   AWS_REGION: ap-northeast-2 #Seoul
   ECR_REPOSITORY: olaftest
