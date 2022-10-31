@@ -20,17 +20,12 @@ env:
 
 jobs:
   integration_test:
-    runs-on: ${{ matrix.os }}
-    strategy:
-      matrix:
-        python-version: [3.9.12]
-        os: [ubuntu-latest]
-
+    runs-on: ubuntu-latest
     steps:
       - name: Test environment Setup Python..
         uses: actions/setup-python@v2
         with:
-          python-version: ${{ matrix.python-version }}
+          python-version: 3.9.12
 
       - name: Pull github repositories...
         uses: actions/checkout@v2
