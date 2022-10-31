@@ -9,9 +9,6 @@ runs:
         python-version: 3.9
         cache: 'pip'
 
-    - name: Display Python version
-      run: python -c "import sys; print(sys.version)"
-
     # 해당 설정이 있어야 gitaction에서 일어나는 시간대가 KST로된다.
     - name: Setup timezone
       uses: zcong1993/setup-timezone@master
