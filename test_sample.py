@@ -5,4 +5,4 @@ def test_number():
 
 def test_second_number():
     a = 5
-    assert a == 5
+    assert a == 4
