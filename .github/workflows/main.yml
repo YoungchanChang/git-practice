@@ -9,7 +9,7 @@ on:
 #      - "test_code/**"
 env:
   AWS_REGION: ap-northeast-2 #Seoul
-  ECR_REPOSITORY: olaftest # respository-name
+  ECR_REPOSITORY: olaftest
 
 jobs:
   build:
@@ -45,7 +45,7 @@ jobs:
         id: interface_meta
         uses: docker/metadata-action@v3
         with:
-          images: ${{ env.ECR_PATH }}/${{ env.$ECR_REPOSITORY }}
+          images: ${{ env.ECR_PATH }}/${{ env.ECR_REPOSITORY }}
           tags: |
             type=raw,value=${{ env.IMAGE_TAG }}
             type=raw,value=develop.latest
