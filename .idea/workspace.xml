@@ -61,28 +61,7 @@
       <updated>1665312595815</updated>
       <workItem from="1665312597430" duration="12257000" />
       <workItem from="1666764197801" duration="1940000" />
-      <workItem from="1666921529245" duration="19518000" />
-    </task>
-    <task id="LOCAL-00018" summary="# git log file D added">
-      <created>1665390111999</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1665390111999</updated>
-    </task>
-    <task id="LOCAL-00019" summary="# git log file E added">
-      <created>1665390148577</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1665390148577</updated>
-    </task>
-    <task id="LOCAL-00020" summary="# git stash file added">
-      <created>1665396417800</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1665396417800</updated>
+      <workItem from="1666921529245" duration="19844000" />
     </task>
     <task id="LOCAL-00021" summary="# git stash dev login">
       <created>1665396545211</created>
@@ -406,7 +385,28 @@
       <option name="project" value="LOCAL" />
       <updated>1667207135100</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="# test에 대해서 테스트 해봄">
+      <created>1667207273754</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1667207273754</updated>
+    </task>
+    <task id="LOCAL-00068" summary="# test에 대해서 테스트 해봄">
+      <created>1667207328033</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1667207328033</updated>
+    </task>
+    <task id="LOCAL-00069" summary="# test에 대해서 테스트 해봄">
+      <created>1667207462239</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1667207462239</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
