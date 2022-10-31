@@ -14,7 +14,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      # aws에서 제공하는 액션을 사용해서 credentials를 세팅한다.
+
+      # AWS Setting
+      ## configure
       - name: Configure AWS Credentials
         uses: aws-actions/configure-aws-credentials@v1
         with:
@@ -22,23 +24,23 @@ jobs:
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws-region: ${{ env.AWS_REGION }}
 
-      # aws에서 제공하는 액션을 사용해서 ecr로그인 실행
+      ## login ecr
       - name: Login to Amazon ECR
         id: login-ecr
         uses: aws-actions/amazon-ecr-login@v1
 
-
-      # 이미지 푸시를 위한 태그정보를 깃헙 브랜치와 해시정보를 합쳐서 만든다.
+      ## image info
       - name: set env
         run: |
           echo "ECR_PATH=${{ steps.login-ecr.outputs.registry }}" >> $GITHUB_ENV
           echo "IMAGE_TAG=$(echo ${GITHUB_REF:11} | sed 's/\//_/g').$(date +%y.%m.%d.%H_%M)-$(echo $GITHUB_SHA | cut -c 1-7)" >> $GITHUB_ENV
-  
 
-      # 도커 push 정보
+      # Docker
+      ## docker set up
       - name: Set up Docker Buildx
         uses: docker/setup-buildx-action@v1
 
+      ## docker interface
       - name: Docker interface_meta
         id: interface_meta
         uses: docker/metadata-action@v3
@@ -48,7 +50,7 @@ jobs:
             type=raw,value=${{ env.IMAGE_TAG }}
             type=raw,value=develop.latest
   
-
+      ## Docker image push
       - name: build-push
         uses: docker/build-push-action@v2
         with:
@@ -56,8 +58,9 @@ jobs:
           push: true
           tags: ${{ steps.interface_meta.outputs.tags }}
           labels: ${{ steps.interface_meta.outputs.labels }}
-#
-#
+
+
+
 #      - name: Run a one-line script
 #        run: echo Hello, world!
 #

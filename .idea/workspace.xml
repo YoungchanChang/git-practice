@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b15e768d-359b-42bf-9cca-6b45f20f23ae" name="Changes" comment="# Dockerfile 사용해보기">
+    <list default="true" id="b15e768d-359b-42bf-9cca-6b45f20f23ae" name="Changes" comment="# Dockerfile push">
       <change beforePath="$PROJECT_DIR$/.github/workflows/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/main.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,28 +62,7 @@
       <updated>1665312595815</updated>
       <workItem from="1665312597430" duration="12257000" />
       <workItem from="1666764197801" duration="1940000" />
-      <workItem from="1666921529245" duration="14793000" />
-    </task>
-    <task id="LOCAL-00010" summary="# git log file B added">
-      <created>1665388055088</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1665388055088</updated>
-    </task>
-    <task id="LOCAL-00011" summary="# git log file B added">
-      <created>1665388086953</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1665388086953</updated>
-    </task>
-    <task id="LOCAL-00012" summary="# git log file B added">
-      <created>1665388216199</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1665388216199</updated>
+      <workItem from="1666921529245" duration="15296000" />
     </task>
     <task id="LOCAL-00013" summary="# git log file C added">
       <created>1665389890104</created>
@@ -408,7 +386,28 @@
       <option name="project" value="LOCAL" />
       <updated>1666947935131</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="# Dockerfile push">
+      <created>1667194742265</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1667194742265</updated>
+    </task>
+    <task id="LOCAL-00060" summary="# Dockerfile push">
+      <created>1667194847839</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1667194847839</updated>
+    </task>
+    <task id="LOCAL-00061" summary="# Dockerfile push">
+      <created>1667194992472</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1667194992472</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -438,7 +437,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="# First commit" />
     <MESSAGE value="# login" />
     <MESSAGE value="# signup" />
     <MESSAGE value="# release" />
@@ -463,7 +461,8 @@
     <MESSAGE value="# black isort works" />
     <MESSAGE value="# python 설치하기" />
     <MESSAGE value="# Dockerfile 사용해보기" />
-    <option name="LAST_COMMIT_MESSAGE" value="# Dockerfile 사용해보기" />
+    <MESSAGE value="# Dockerfile push" />
+    <option name="LAST_COMMIT_MESSAGE" value="# Dockerfile push" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
