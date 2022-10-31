@@ -13,7 +13,7 @@ jobs:
 
   test:
     if: github.ref_name == 'develop'
-    uses: ./.github/workflows/test.yaml
+    uses: ./.github/workflows/test.yml
     with:
       api_name: admin_api
 
