@@ -3,7 +3,7 @@ import os
 
 def pytest_generate_tests():
     os.environ["PYTHONUNBUFFERED"] = "1"
-    os.environ["PRODUCTION_MODE"] = "tesx"
+    os.environ["PRODUCTION_MODE"] = "test"
     os.environ["RUNNER"] = "user"
 
 
