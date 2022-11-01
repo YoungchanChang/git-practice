@@ -11,13 +11,6 @@ on:
         description: Test status
         value: ${{ jobs.integration_test.conclusion }}
 
-env:
-  env: test
-  DB_HOST: localhost
-  DB_USERNAME: buzzni
-  DB_PASSWORD: buzznilocal
-
-
 jobs:
   integration_test:
     runs-on: ${{ matrix.os }}
