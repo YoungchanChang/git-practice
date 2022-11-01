@@ -1,6 +1,12 @@
 import os
 
 
+def pytest_generate_tests():
+    os.environ["PYTHONUNBUFFERED"] = "1"
+    os.environ["PRODUCTION_MODE"] = "test"
+    os.environ["RUNNER"] = "user"
+
+
 def test_number():
     a = 4
     assert a == 4
