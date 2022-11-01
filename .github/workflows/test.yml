@@ -11,13 +11,12 @@ on:
         description: Test status
         value: ${{ jobs.integration_test.conclusion }}
 
+env:
+  python-version: 3.9.12
+
 jobs:
   integration_test:
-    runs-on: ${{ matrix.os }}
-    strategy:
-      matrix:
-        python-version: [3.9.12]
-        os: [ubuntu-latest]
+    runs-on: ubuntu-latest
 
     services:
       postgres:
@@ -43,7 +42,7 @@ jobs:
       - name: Test environment Setup Python..
         uses: actions/setup-python@v2
         with:
-          python-version: ${{ matrix.python-version }}
+          python-version: ${{ env.python-version }}
 
       - name: Pull github repositories...
         uses: actions/checkout@v2
